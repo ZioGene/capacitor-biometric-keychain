@@ -61,6 +61,9 @@ public class KeystoreManager {
                 .setEncryptionPaddings(KeyProperties.ENCRYPTION_PADDING_NONE)
                 .setRandomizedEncryptionRequired(false)
                 .setUserAuthenticationRequired(true)
+                .setUserAuthenticationParameters(
+                    0, // Requires user authentication for every use of the key
+                    KeyProperties.AUTH_BIOMETRIC_STRONG | KeyProperties.AUTH_DEVICE_CREDENTIAL) // Allow both biometrics and device credentials
                 .build()
         );
         return generator.generateKey();
