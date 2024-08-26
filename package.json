@@ -1,6 +1,6 @@
 {
-  "name": "@flowmoco/capacitor-biometric-keychain",
-  "version": "2.0.0",
+  "name": "@drefrajo/capacitor-biometric-keychain",
+  "version": "2.0.1",
   "description": "Uses Keychain and Keystore on ios and android respectively to give a secure localStorage like API that uses a biometric lock for read and update operations",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,11 +13,11 @@
     "ios/Plugin/",
     "FlowmocoCapacitorBiometricKeychain.podspec"
   ],
-  "author": "Charlie Jacques",
+  "contributors": ["Charlie Jacques", "Franz Josef Drexler"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flowmoco/capacitor-biometric-keychain.git"
+    "url": "git+https://github.com/drefrajo/capacitor-biometric-keychain.git"
   },
   "bugs": {
     "url": "https://github.com/flowmoco/capacitor-biometric-keychain/issues"

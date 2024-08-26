@@ -2,6 +2,8 @@
 
 Uses Keychain and Keystore on ios and android respectively to give a secure localStorage like API that uses a biometric lock for read and update operations
 
+This is a fork of [@flowmoco/capacitor-biometric-keychain](https://github.com/flowmoco/capacitor-biometric-keychain), this way I can maintain it more easily.
+
 Capacitor v5
 Android minSdkVersion 23
 iOS min version 13.0
@@ -9,7 +11,7 @@ iOS min version 13.0
 ## Install
 
 ```bash
-npm install @flowmoco/capacitor-biometric-keychain
+npm install @drefrajo/capacitor-biometric-keychain
 npx cap sync
 ```
 
@@ -23,7 +25,7 @@ To enable FaceID, you must set the the NSFaceIDUsageDescription key.
 
 ## Import
 ```typescript
-import { BiometricNative } from "@flowmoco/capacitor-biometric-keychain";
+import { BiometricNative } from "@drefrajo/capacitor-biometric-keychain";
 ```
 
 ## API
